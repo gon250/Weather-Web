@@ -1,0 +1,67 @@
+*{
+    font-family: "Ubuntu";	
+}
+
+
+
+.ui-menu .ui-menu-item a,.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+	margin: -1px;
+	text-align:left;
+	font-size:14px;
+	}
+.ui-autocomplete-loading {
+	background: white url("/images/ui-anim_basic_16x16.gif") right center no-repeat;
+}
+
+
+
+
+
+
+
+
+.my-navbar div {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.7em;
+    background-color: #2c3e50;
+    line-height: 100px;
+}
+
+.my-navbar div a {
+	color: white;
+	text-decoration: none;
+}
+
+.my-navbar {
+    background-color: #2c3e50;
+}
+
+.tool-search{
+	margin-top: 5%;
+}
+
+.box-result{
+	text-align: center;
+	display: block;
+	line-height: 50px;
+	font-size: 3em;
+	margin-top: 5%;
+}
+
+.box-result:first-child{
+	margin-top: 5%;
+	font-size: 2em;
+}
+
+.box-result:last-child{
+	font-size: 2em;
+}
+
+.my-icon{
+	max-width: 84px;
+	max-height: 84px;
+	margin: 5% auto 0 auto;
+	display: block;
+}
