@@ -1,0 +1,23 @@
+{
+  "name": "Weather-Web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gon250/Weather-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gon250/Weather-Web/issues"
+  },
+  "homepage": "https://github.com/gon250/Weather-Web",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0"
+  }
+}

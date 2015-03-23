@@ -1,0 +1,19 @@
+
+
+<div class="row">
+	<div class="col-md-12">
+		<input type="text" class="form-control" placeholder="Search your city" ng-model="query">
+	</div>
+</div>
+
+<br><br>
+
+<div class="list-group">
+  <a href="#details/London" class="list-group-item" ng-repeat="place in places | filter:query">
+    <h4 class="list-group-item-heading">{{place.fclName}} - <span class="label label-primary">{{place.name}}</span>
+    </h4>
+    <p class="list-group-item-text">
+    	place.name
+    </p>
+  </a>
+</div>
